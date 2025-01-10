@@ -4,7 +4,7 @@ import './App.css';
 import Component1 from './components/Component1';
 import CountryDetail from './components/CountryDetail';
 import Layout from './components/Layout.jsx';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
     const [darkMode, setDarkMode] = useState(false);
